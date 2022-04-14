@@ -1,5 +1,6 @@
 import add from './add';
 // LAB: Importar subtraction
+import subtraction from './subtraction';
 
 
 let result = add(4, 5);

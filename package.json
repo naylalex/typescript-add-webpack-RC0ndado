@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "description": "Sample for adding webpack to a TypeScript project",
+  "description": "Sample for adding webpack to a Tyscript project",
   "name": "typescript-add-webpack",
   "scripts": {
     "build": "webpack --mode=production --node-env=production",
@@ -10,11 +10,24 @@
     "serve": "webpack serve"
   },
   "devDependencies": {
+    "@webpack-cli/generators": "^2.4.2",
     "html-webpack-plugin": "^5.5.0",
     "ts-loader": "^9.2.8",
     "typescript": "^4.6.3",
     "webpack": "^5.72.0",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.8.1"
-  }
+  },
+  "main": "webpack.config.js",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naylalex/typescript-add-webpack-RC0ndado.git"
+  },
+  "author": "ReyCondado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naylalex/typescript-add-webpack-RC0ndado/issues"
+  },
+  "homepage": "https://github.com/naylalex/typescript-add-webpack-RC0ndado#readme"
 }
